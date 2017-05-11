@@ -1,0 +1,30 @@
+.holiday-container {
+  width: 100%;
+}
+.holiday-item {
+  width: 100%;
+  background-color: rgba(224,224,224,1);
+  margin-bottom: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: inline-block;
+}
+.holiday-item:hover {
+  background-color: rgba(200,200,200,1);
+}
+.holiday-item h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgba(32,32,32,1);
+  display: inline-block;
+  margin-left: 20px;
+}
+.holiday-item h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgba(128,128,128,1);
+  display: inline-block;
+  margin-left: 20px;
+}

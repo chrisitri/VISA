@@ -1,3 +1,9 @@
-<h1>
-  {{title}}
-</h1>
+<div class="holiday-container"
+       *ngFor="let month of months; let m=index">
+  <div class="holiday-item" attr.id="holiday{{i}}"
+       *ngFor="let holiday of months[m].holidays; let i=index"
+       (click)="onHolidayClick($event,m,i)">
+    <h1>{{holiday.date}}</h1>
+    <h2>{{holiday.name}}</h2>
+  </div>
+</div>
